@@ -23,16 +23,16 @@ const Branches = () => {
   return (
     <section id="branches" className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-cairo">
-            فروعنا 📍
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 font-cairo">
+            فروعنا
           </h2>
-          <p className="text-xl text-muted-foreground font-cairo">
+          <p className="text-lg md:text-xl text-muted-foreground font-cairo">
             اختر الفرع الأقرب ليك واحجز موعدك
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
           {branches.map((branch, index) => (
             <Card
               key={index}

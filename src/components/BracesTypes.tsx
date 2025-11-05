@@ -33,16 +33,16 @@ const BracesTypes = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-cairo">
-            أنواع التقويم المتاحة 🦷
+        <div className="text-center mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4 font-cairo">
+            أنواع التقويم المتاحة
           </h2>
-          <p className="text-xl text-muted-foreground font-cairo">
+          <p className="text-lg md:text-xl text-muted-foreground font-cairo">
             اختر النوع المناسب لك من بين أحدث أنواع تقويم الأسنان
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
           {types.map((type, index) => (
             <Card
               key={index}
@@ -79,12 +79,12 @@ const BracesTypes = () => {
           ))}
         </div>
 
-        <div className="mt-12 text-center">
-          <div className="bg-gradient-primary text-primary-foreground rounded-2xl p-8 max-w-3xl mx-auto shadow-elegant">
-            <h3 className="text-2xl md:text-3xl font-bold mb-4 font-cairo">
+        <div className="mt-8 md:mt-12 text-center">
+          <div className="bg-gradient-primary text-primary-foreground rounded-2xl p-6 md:p-8 max-w-3xl mx-auto shadow-elegant">
+            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mb-4 font-cairo">
               ما الي هتحصل عليه في جلسة الكشف المجانية؟
             </h3>
-            <ul className="text-right space-y-3 text-lg font-cairo">
+            <ul className="text-right space-y-2 md:space-y-3 text-base md:text-lg font-cairo">
               <li>✅ معرفة خطة العلاج الكاملة</li>
               <li>✅ مشاهدة صور لحالات قبل وبعد شبه أسنانك</li>
               <li>✅ معرفة المدة المتوقعة للعلاج</li>

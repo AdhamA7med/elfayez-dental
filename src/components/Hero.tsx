@@ -4,7 +4,7 @@ import heroImage from "@/assets/hero-dental.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
@@ -16,28 +16,28 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-4 py-20 text-center">
-        <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold text-white font-cairo leading-tight">
+      <div className="relative z-10 container mx-auto px-4 py-12 md:py-20 text-center">
+        <div className="max-w-4xl mx-auto space-y-6 md:space-y-8 animate-fade-in">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white font-cairo leading-tight">
             عيادة الفايز لطب الأسنان
           </h1>
-          <p className="text-xl md:text-3xl text-white/90 font-cairo font-semibold">
+          <p className="text-lg md:text-2xl lg:text-3xl text-white/90 font-cairo font-semibold">
             El Fayez Dental Clinic
           </p>
           
-          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 border border-white/20 shadow-elegant">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-cairo">
-              🦷 أسنانك محتاجة تقويم؟
+          <div className="bg-white/10 backdrop-blur-md rounded-2xl p-6 md:p-8 border border-white/20 shadow-elegant">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-3 md:mb-4 font-cairo">
+              أسنانك محتاجة تقويم؟
             </h2>
-            <p className="text-xl md:text-2xl text-white/95 mb-6 font-cairo">
-              سهلنالك تقويم أسنانك دلوقتي بقى بالتقسيط 💸
+            <p className="text-lg md:text-xl lg:text-2xl text-white/95 mb-4 md:mb-6 font-cairo">
+              سهلنالك تقويم أسنانك دلوقتي بقى بالتقسيط
             </p>
-            <div className="bg-secondary/90 text-secondary-foreground rounded-xl p-6 mb-6">
-              <p className="text-2xl font-bold mb-2 font-cairo">
-                🎁 جلسة كشف تقويم مجاناً
+            <div className="bg-secondary/90 text-secondary-foreground rounded-xl p-4 md:p-6 mb-4 md:mb-6">
+              <p className="text-xl md:text-2xl font-bold mb-2 font-cairo">
+                جلسة كشف تقويم مجاناً
               </p>
-              <p className="text-lg font-cairo">
-                احجز جلستك المجانية لو هتركب معانا!
+              <p className="text-base md:text-lg font-cairo">
+                احجز جلستك المجانية لو هتركب معانا
               </p>
             </div>
           </div>
